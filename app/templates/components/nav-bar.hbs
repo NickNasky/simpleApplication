@@ -1,0 +1,10 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <h2>Hello, {{name}}</h2>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="btn btn-default signup" {{action toggleSignup}}>{{if signupShow "Home" "Sign Up"}}</li>
+    </ul>
+  </div>
+</nav>
